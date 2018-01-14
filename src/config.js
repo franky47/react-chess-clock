@@ -1,4 +1,4 @@
 export default {
   timeDelta: 0.1, // seconds
-  initialTime: 2
+  initialTime: 60
 }
