@@ -1,0 +1,19 @@
+.chrono {
+  font-size: 8rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  user-select: none;
+}
+
+.chrono.running {
+  background-color: orange;
+  color: white;
+}
+
+.chrono.over {
+  background-color: red;
+  color: white;
+}

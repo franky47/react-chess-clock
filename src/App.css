@@ -1,0 +1,22 @@
+.app {
+  height: 100%;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr 100px 1fr;
+  align-items: center;
+}
+
+.controls > button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  background-color: #555;
+  color: #ccc;
+  border: none;
+  outline: 0;
+  border-radius: 3px;
+  font-size: 1rem;
+}
+
+.app .chrono:first-child {
+  transform: rotate(180deg);
+}
